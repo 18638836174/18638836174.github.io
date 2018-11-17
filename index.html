@@ -57,8 +57,8 @@
       var canvasX
       var canvasY
       this.canvas = document.getElementById(id);
-      canvasX= this.canvas.getBoundingClientRect().x
-      canvasY= this.canvas.getBoundingClientRect().y
+      canvasX= this.canvas.getBoundingClientRect().left
+      canvasY= this.canvas.getBoundingClientRect().top
       var obj = {
         canvas: this.canvas,
         context: this.canvas.getContext("2d"),
